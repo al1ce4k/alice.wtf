@@ -1,1 +1,1 @@
-out of order, come back another time
+Pro Deo et patria
