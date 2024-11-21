@@ -4,16 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pro Deo et patriar</title>
+    <title>yes</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
     <div class="background"></div>
     <div class="centered-text">
-        <p>Pro Deo et patria</p>
-        <p>Brynjur hestar allt er í lagi Ég les hana og græt en ég hef meira en sátt við það</p>
-        <p>Þakka fyrir guði fyrir allt</p>  
+        <p>three.three.five.three.six.six</p>
+        <p>85-12-16.13-5</p>
+        <div id="timer" class="small-text"></div>
     </div>
+    <script>
+        (function () {
+            const d = 1982745600000; // 
+            const e = document.getElementById("timer");
+            const x = () => {
+                const r = Math.floor((d - Date.now()) / 1000); // Calculate seconds remaining
+                e.textContent = r > 0 ? `${r}` : "u:0"; // Display as "t:<seconds>" or "u:0"
+            };
+            setInterval(x, 1000);
+        })();
+    </script>
 </body>
+
 </html>

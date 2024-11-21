@@ -1,43 +1,49 @@
-</style> 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+</style > * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Georgia', serif; 
+html,
+body {
+  height: 100%;
+  font-family: "Georgia", serif;
 }
 
 .background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('/images/background.png') no-repeat center center fixed;
-    background-size: cover;
-    filter: blur(8px); 
-    z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/images/background.png") no-repeat center center fixed;
+  background-size: cover;
+  filter: blur(8px);
+  z-index: -1;
 }
 
 .centered-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 3rem;
-    text-align: center;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
-    z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  z-index: 1;
 }
 
 .small-text {
-    font-size: 1rem; 
-    margin-top: 1rem; 
-    color: rgba(255, 255, 255, 0.8); 
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#timer {
+  font-size: 2rem;
+  color: rgba(71, 1, 1, 0.9); /* Slightly opaque white */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  margin-top: 1.5rem;
 }
